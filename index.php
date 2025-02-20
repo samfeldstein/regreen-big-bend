@@ -3,9 +3,13 @@
   <?php get_template_part("head") ?>
 
   <body>
-    <h1><?php bloginfo('name'); ?></h1>
-    <p class="tagline">Conserving and restoring native habitat in Texas’s Big Bend.</p>
-    <?php wp_footer(); ?>
+    <header>
+      <h1><?php bloginfo('name'); ?></h1>
+      <p class="tagline">Conserving and restoring native habitat in Texas’s Big Bend.</p>
+      <nav>
+        <a href="/land/">Land for Sale</a>
+      </nav>
+    </header>
 
     <section id="about" class="about">
       <p>
@@ -23,6 +27,25 @@
 
       <p><a href="https://www.instagram.com/regreenbigbend/">@regreenbigbend</a> on Instagram, now and then.
         Mostly then.</p>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Get in Touch</h2>
+      <form action="/contact-success.php" method="post">
+        <label for="name">Name*</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email*</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="phone">
+
+        <label for="message">Message*</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
     </section>
 
     <section id="resources" class="resources">
@@ -45,6 +68,7 @@
         <li><a href="https://bamertseed.com">Bamert Seed</a>, Muleshoe, TX</li>
       </ul>
     </section>
+    <?php get_footer("custom"); ?>
   </body>
 
 </html>
