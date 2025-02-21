@@ -1,11 +1,11 @@
 <?php get_header(); ?>
 
 <header>
-  <h1><?php bloginfo('name'); ?></h1>
-  <p class="tagline">Conserving and restoring native habitat in Texas’s Big Bend.</p>
   <nav>
     <a href="/land/">Land for Sale</a>
   </nav>
+  <h1><?php bloginfo('name'); ?></h1>
+  <p class="tagline">Conserving and restoring native habitat in Texas’s Big Bend.</p>
 </header>
 
 <main>
@@ -22,27 +22,15 @@
       consult experts and not do anything harmful.</p>
 
     <p>We work mostly in the winter because it just too hot the rest of the time.</p>
-
-    <p><a href="https://www.instagram.com/regreenbigbend/">@regreenbigbend</a> on Instagram, now and then.
-      Mostly then.</p>
   </section>
 
   <section id="contact" class="contact">
     <h2>Get in Touch</h2>
 
-    Reach us at <a href="mailto:regreenbigbend@gmail.com">regreenbigbend@gmail.com</a>.
-    <!-- <form method="post">
-        <label for="name">Name:</label>
-        <input type="text" name="name" required="">
+    Reach us at <br /><a href="mailto:regreenbigbend@gmail.com" class="email">regreenbigbend@gmail.com</a>
 
-        <label for="email">Email:</label>
-        <input type="email" name="email" required="">
-
-        <label for="message">Message:</label>
-        <textarea name="message" required=""></textarea>
-
-        <input type="submit" value="Submit">
-      </form> -->
+    <p><a href="https://www.instagram.com/regreenbigbend/">@regreenbigbend</a><br />on Instagram, now and then.
+      Mostly then.</p>
 
   </section>
 
