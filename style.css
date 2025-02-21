@@ -15,10 +15,11 @@ nav {
 nav a {
   color: #000;
   text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.2em;
+  font-size: calc(0.8rem + 0.5vw);
 }
 
 nav a:hover,
 nav a:focus {
   text-decoration: none;
-  color: #488f48;
 }

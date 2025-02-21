@@ -1,9 +1,16 @@
 header {
   text-align: center;
+  border-bottom-style: double;
+  border-bottom-width: 4px;
+  padding-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
 h1 {
-  font-size: calc(4rem + 3vw);
+  font-family: "Jacques Francois Shadow";
+  font-weight: 100;
+  font-size: calc(2.5rem + 6vw);
+  margin-bottom: 0;
 }
 
 h2 {
@@ -13,6 +20,7 @@ h2 {
 
 .tagline {
   font-style: italic;
+  font-size: calc(1.5rem + 0.5vw);
 }
 
 section.about {
