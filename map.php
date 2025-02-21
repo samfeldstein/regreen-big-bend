@@ -11,8 +11,8 @@ Template Name: Map
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>ReGreen Big Bend</title>
-    <meta name="description" content="Conserving and restoring native habitat in Texas’s Big Bend.">
+    <title>Terlingua Ranch Property Appraisal Information | ReGreen Big Bend</title>
+    <meta name="description" content="Terlingua Ranch Property Appraisal Information.">
 
     <link rel="stylesheet" href="<?php echo esc_url(get_stylesheet_uri()); ?>" type="text/css" />
     <style>
@@ -61,7 +61,7 @@ Template Name: Map
 
   <body>
     <header>
-      <h1>Brewster County, TX, Terlingua Ranch Property Appraisal Information</h1>
+      <h1>Brewster County, TX <br />Terlingua Ranch Property Appraisal Information</h1>
       <p class="tagline">Conserving and restoring native habitat in Texas’s Big Bend.</p>
       <nav>
         <a href="/">Home</a>

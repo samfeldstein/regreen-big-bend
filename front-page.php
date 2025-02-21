@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html>
-  <?php get_template_part("head") ?>
 
-  <body>
-    <header>
-      <h1><?php bloginfo('name'); ?></h1>
-      <p class="tagline">Conserving and restoring native habitat in Texas’s Big Bend.</p>
-      <nav>  
+
+
+  <?php get_header(); ?>
+
+  <header>
+    <h1><?php bloginfo('name'); ?></h1>
+    <p class="tagline">Conserving and restoring native habitat in Texas’s Big Bend.</p>
+    <nav>
       <a href="/land/">Land for Sale</a>
-      </nav>
-    </header>
+    </nav>
+  </header>
 
+  <main>
     <section id="about" class="about">
       <p>
         ReGreen Big Bend helps landowners in the 190,000-acre Terlingua Ranch
@@ -68,7 +71,7 @@
         <li><a href="https://bamertseed.com">Bamert Seed</a>, Muleshoe, TX</li>
       </ul>
     </section>
-    <?php get_footer("custom"); ?>
-  </body>
+  </main>
 
-</html>
+
+  <?php get_footer(); ?>
