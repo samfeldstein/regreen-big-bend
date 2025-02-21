@@ -7,7 +7,7 @@ Template Name: Map
 <?php get_header(); ?>
 
 <header>
-  <h1><?php bloginfo('name'); ?></h1>
+  <h1>Brewster County, TX <br />Terlingua Ranch Property Appraisal Information</h1>
   <p class="tagline">Conserving and restoring native habitat in Texas’s Big Bend.</p>
   <nav>
     <a href="/land/">Land for Sale</a>
