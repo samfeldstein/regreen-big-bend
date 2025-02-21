@@ -6,8 +6,8 @@
     <header>
       <h1><?php bloginfo('name'); ?></h1>
       <p class="tagline">Conserving and restoring native habitat in Texas’s Big Bend.</p>
-      <nav>
-        <a href="/land/">Land for Sale</a>
+      <nav>  
+      <a href="/land/">Land for Sale</a>
       </nav>
     </header>
 
@@ -31,7 +31,9 @@
 
     <section id="contact" class="contact">
       <h2>Get in Touch</h2>
-      <form method="post">
+
+      Reach us at <a href="mailto:regreenbigbend@gmail.com">regreenbigbend@gmail.com</a>.
+      <!-- <form method="post">
         <label for="name">Name:</label>
         <input type="text" name="name" required="">
 
@@ -42,7 +44,7 @@
         <textarea name="message" required=""></textarea>
 
         <input type="submit" value="Submit">
-      </form>
+      </form> -->
 
     </section>
 
