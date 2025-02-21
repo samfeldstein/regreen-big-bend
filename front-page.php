@@ -31,6 +31,18 @@
 
     <section id="contact" class="contact">
       <h2>Get in Touch</h2>
+      <form method="post">
+        <label for="name">Name:</label>
+        <input type="text" name="name" required="">
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" required="">
+
+        <label for="message">Message:</label>
+        <textarea name="message" required=""></textarea>
+
+        <input type="submit" value="Submit">
+      </form>
 
     </section>
 
