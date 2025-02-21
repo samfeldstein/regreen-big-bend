@@ -4,5 +4,10 @@ Theme Name: Custom Classic
 
 body {
   background-color: #EEF2E4;
+  font-family: Sexsmith;
   font-size: 1.25rem;
+}
+
+nav {
+  font-family: Nashville;
 }

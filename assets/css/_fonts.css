@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Jacques Francois Shadow';
+  src: url('../fonts/subset-JacquesFrancoisShadow-Regular.woff2') format('woff2'),
+    url('../fonts/subset-JacquesFrancoisShadow-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Nashville';
+  src: url('../fonts/subset-Nashville.woff2') format('woff2'),
+    url('../fonts/subset-Nashville.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sexsmith';
+  src: url('../fonts/subset-Sexsmith-Regular.woff2') format('woff2'),
+    url('../fonts/subset-Sexsmith-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

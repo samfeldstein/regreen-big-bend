@@ -2,6 +2,7 @@
 function load_css()
 {
   // Always load reset CSS
+  wp_enqueue_style("fonts", get_theme_file_uri("/assets/css/_fonts.css"));
   wp_enqueue_style('reset', get_theme_file_uri("/assets/css/reset.css"));
 
   // Load page-specific CSS
@@ -14,29 +15,6 @@ function load_css()
   }
 }
 
-// function load_css()
-// {
-//   if (is_page("front-page")) {
-//     wp_enqueue_style("home", get_theme_file_uri("/assets/css/_front-page.css"));
-//   }
-// }
-
-// function load_css_reset()
-// {
-//   wp_enqueue_style(
-//     'reset',
-//     get_theme_file_uri("/assets/css/reset.css")
-//   );
-// }
-
-// function load_modal_css()
-// {
-//   if (is_page("map")) {
-//     wp_enqueue_style("modal", get_theme_file_uri("/assets/css/_modal.css"));
-//   }
-
-// }
-
 function load_map_modal()
 {
   if (is_page("map")) {
@@ -46,6 +24,4 @@ function load_map_modal()
 
 // Actions
 add_action('wp_enqueue_scripts', 'load_css');
-// add_action('wp_enqueue_scripts', 'load_css_reset');
-// add_action("wp_enqueue_scripts", "load_modal_css");
 add_action("wp_enqueue_scripts", "load_map_modal");
