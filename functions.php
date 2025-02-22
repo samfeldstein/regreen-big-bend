@@ -29,3 +29,4 @@ function load_map_modal()
 // Actions
 add_action('wp_enqueue_scripts', 'load_css');
 add_action("wp_enqueue_scripts", "load_map_modal");
+add_theme_support('title-tag');
