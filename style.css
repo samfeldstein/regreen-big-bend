@@ -4,6 +4,8 @@ Theme Name: Custom Classic
 
 body {
   margin: 0 auto;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
   background-color: #EEF2E4;
   font-family: Sexsmith;
   font-size: calc(1rem + 1vw);
@@ -11,7 +13,6 @@ body {
 
 header {
   text-align: center;
-  margin-bottom: 4rem;
 }
 
 h1 {
