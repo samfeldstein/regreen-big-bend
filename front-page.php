@@ -2,7 +2,7 @@
 
 <header>
   <nav>
-    <a href="/land/">Land for Sale</a>
+    <a href="/land-for-sale/">Land for Sale</a>
   </nav>
   <h1><?php bloginfo('name'); ?></h1>
   <p class="tagline">Conserving and restoring native habitat in Texas’s Big Bend.</p>

@@ -9,7 +9,7 @@ Template Name: Land
 <header>
   <nav>
     <a href="/">Home</a>
-    <a href="/land/">Land for Sale</a>
+    <a href="/land-for-sale/">Land for Sale</a>
   </nav>
   <h1>Terlingua Ranch Land for Sale</h1>
 </header>
