@@ -14,7 +14,7 @@ Template Name: Land
   <h1>Terlingua Ranch Land for Sale</h1>
 </header>
 
-<main>
+<main id="main-content">
   <section id="intro" class="intro">
     <p>ReGreen Big Bend LLC is NOT a land dealer. However, sometimes we find
       ourselves owning land that isn’t appropriate for our purposes. If you’re interested,

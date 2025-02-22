@@ -8,7 +8,7 @@
   <p class="tagline">Conserving and restoring native habitat in Texas’s Big Bend.</p>
 </header>
 
-<main>
+<main id="main-content">
   <section id="about" class="about">
     <p>
       ReGreen Big Bend helps landowners in the 190,000-acre Terlingua Ranch

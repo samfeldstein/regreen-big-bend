@@ -26,7 +26,26 @@ function load_map_modal()
   }
 }
 
+function dynamic_meta_description()
+{
+  if (is_singular()) {
+    global $post;
+    // Use the excerpt or trim the content if no excerpt exists.
+    $description = $post->post_excerpt ? $post->post_excerpt : wp_trim_words($post->post_content, 55, '');
+  } else {
+    $description = get_bloginfo('description');
+  }
+  echo '<meta name="description" content="' . esc_attr($description) . '">' . "\n";
+}
+
+function enable_page_excerpts()
+{
+  add_post_type_support('page', 'excerpt');
+}
+
 // Actions
 add_action('wp_enqueue_scripts', 'load_css');
 add_action("wp_enqueue_scripts", "load_map_modal");
+add_action('wp_head', 'dynamic_meta_description');
+add_action('init', 'enable_page_excerpts');
 add_theme_support('title-tag');

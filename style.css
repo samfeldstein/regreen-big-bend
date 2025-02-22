@@ -93,3 +93,21 @@ nav a {
   font-weight: 100;
   font-size: calc(1rem + 2vw);
 }
+
+a.skiplink {
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  padding: 0.5em;
+  font-variant: small-caps;
+  text-decoration: none;
+  z-index: 50;
+  position: absolute;
+  translate: -1000%;
+  transition-duration: 0.25s;
+}
+
+a.skiplink:focus {
+  translate: 2rem;
+}
