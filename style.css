@@ -7,7 +7,7 @@ body {
   display: grid;
   grid-template-rows: auto 1fr auto;
   background-color: #EEF2E4;
-  font-family: Sexsmith;
+  font-family: Sexsmith, Georgia, 'Times New Roman', Times, serif;
   font-size: calc(1rem + 1vw);
 }
 
@@ -16,13 +16,13 @@ header {
 }
 
 h1 {
-  font-family: "Jacques Francois Shadow";
+  font-family: "Jacques Francois Shadow", Georgia, 'Times New Roman', Times, serif;
   font-weight: 100;
   font-size: calc(2rem + 5vw);
 }
 
 nav {
-  font-family: Nashville;
+  font-family: Nashville, Arial, Helvetica, sans-serif;
 }
 
 nav a {
@@ -89,7 +89,7 @@ nav a {
 }
 
 .site-title {
-  font-family: "Jacques Francois Shadow";
+  font-family: "Jacques Francois Shadow", Georgia, 'Times New Roman', Times, serif;
   font-weight: 100;
   font-size: calc(1rem + 2vw);
 }
