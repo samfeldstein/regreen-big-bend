@@ -20,7 +20,6 @@ img {
   /* Make images responsive */
   max-width: 100%;
   height: auto;
-  animation: fadeIn .5s ease-in forwards;
 }
 
 figure {
@@ -47,15 +46,4 @@ button,
 textarea,
 select {
   font: inherit;
-}
-
-/* Animations */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
 }

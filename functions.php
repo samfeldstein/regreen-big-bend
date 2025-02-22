@@ -13,6 +13,10 @@ function load_css()
   if (is_page("map")) {
     wp_enqueue_style("modal", get_theme_file_uri("/assets/css/_modal.css"));
   }
+
+  if (is_page("land-for-sale")) {
+    wp_enqueue_style("modal", get_theme_file_uri("/assets/css/_land.css"));
+  }
 }
 
 function load_map_modal()
