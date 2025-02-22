@@ -6,16 +6,24 @@ body {
   margin: 0 auto;
   background-color: #EEF2E4;
   font-family: Sexsmith;
-  font-size: 1.25rem;
   font-size: calc(1rem + 1vw);
 }
 
 nav {
   font-family: Nashville;
+  padding: 0.5rem 0;
 }
 
 nav a {
   font-size: calc(0.8rem + 0.5vw);
+}
+
+main {
+  line-height: 1.5;
+}
+
+h2 {
+  margin-bottom: 0.5em;
 }
 
 a {
@@ -29,12 +37,27 @@ a:focus {
   text-decoration: none;
 }
 
-footer {
+footer,
+nav {
   background-color: #2F5922;
   color: #EEF2E4;
   text-align: center;
+}
+
+footer {
   margin-top: 2rem;
-  padding: 2rem;
+  padding: 1rem;
+}
+
+footer ul.links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer a,
+nav a {
+  color: unset;
 }
 
 .site-title {

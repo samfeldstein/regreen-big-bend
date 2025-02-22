@@ -27,11 +27,10 @@
   <section id="contact" class="contact">
     <h2>Get in Touch</h2>
 
-    <p>Reach us at <br /><a href="mailto:regreenbigbend@gmail.com"
-        class="contact">regreenbigbend@gmail.com</a><br />or<br /><a href="https://www.instagram.com/regreenbigbend/"
-        class="contact">@regreenbigbend</a><br />on Instagram, now
-      and then.
-      Mostly then.</p>
+    <p>Reach us at <a href="mailto:regreenbigbend@gmail.com" class="contact">regreenbigbend@gmail.com</a> or <a
+        href="https://www.instagram.com/regreenbigbend/" class="contact">@regreenbigbend</a> on Instagram, now
+      and then. Mostly then.
+    </p>
 
   </section>
 
