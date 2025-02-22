@@ -1,4 +1,20 @@
 <?php
+
+function preload_fonts()
+{
+  ?>
+  <link rel="preload" as="font"
+    href="<?php echo esc_url(get_template_directory_uri() . '/assets/fonts/subset-JacquesFrancoisShadow-Regular.woff2'); ?>"
+    type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" as="font"
+    href="<?php echo esc_url(get_template_directory_uri() . '/assets/fonts/subset-Nashville.woff2'); ?>" type="font/woff2"
+    crossorigin="anonymous">
+  <link rel="preload" as="font"
+    href="<?php echo esc_url(get_template_directory_uri() . '/assets/fonts/subset-Sexsmith-Regular.woff2'); ?>"
+    type="font/woff2" crossorigin="anonymous">
+  <?php
+}
+
 function load_css()
 {
   // Always load reset CSS
@@ -48,4 +64,5 @@ add_action('wp_enqueue_scripts', 'load_css');
 add_action("wp_enqueue_scripts", "load_map_modal");
 add_action('wp_head', 'dynamic_meta_description');
 add_action('init', 'enable_page_excerpts');
+add_action('wp_head', 'preload_fonts');
 add_theme_support('title-tag');
