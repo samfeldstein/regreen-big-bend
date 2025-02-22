@@ -6,6 +6,7 @@ body {
   background-color: #EEF2E4;
   font-family: Sexsmith;
   font-size: 1.25rem;
+  font-size: calc(1rem + 1vw);
 }
 
 nav {
@@ -13,13 +14,16 @@ nav {
 }
 
 nav a {
-  color: #000;
-  text-decoration-thickness: 0.1em;
-  text-underline-offset: 0.2em;
   font-size: calc(0.8rem + 0.5vw);
 }
 
-nav a:hover,
-nav a:focus {
+a {
+  color: #2F5922;
+  text-decoration-thickness: 0.05em;
+  text-underline-offset: 0.1em;
+}
+
+a:hover,
+a:focus {
   text-decoration: none;
 }

@@ -6,6 +6,11 @@ header {
   margin-bottom: 4rem;
 }
 
+main {
+  display: grid;
+  gap: 2rem;
+}
+
 h1 {
   font-family: "Jacques Francois Shadow";
   font-weight: 100;
@@ -15,7 +20,9 @@ h1 {
 
 h2 {
   text-align: center;
-  font-size: 4rem;
+  font-family: Nashville;
+  font-weight: 100;
+  font-size: calc(2rem + 4vw);
 }
 
 .tagline {
@@ -30,13 +37,18 @@ section.about {
   padding: 1rem 2rem;
   max-width: 60rem;
   margin: 0 auto;
-  font-size: 2rem;
 }
 
 section.contact {
   text-align: center;
+  border-bottom-style: double;
+  border-bottom-width: 4px;
+  padding-bottom: 2rem;
 }
 
-a.email {
+a.contact {
   font-style: italic;
+  font-weight: 700;
+  display: inline-block;
+  padding: 0.5em;
 }
