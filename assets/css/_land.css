@@ -18,6 +18,11 @@ section {
   margin: 0 auto;
 }
 
+section.land {
+  display: grid;
+  gap: 2rem;
+}
+
 .tract {
   border: 1px solid;
   border-radius: 10px;
