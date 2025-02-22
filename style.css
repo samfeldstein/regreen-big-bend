@@ -16,6 +16,14 @@ nav {
 
 nav a {
   font-size: calc(0.8rem + 0.5vw);
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.5em;
+}
+
+nav a:hover,
+nav:focus {
+  text-decoration: underline;
 }
 
 main {
@@ -47,12 +55,18 @@ nav {
 footer {
   margin-top: 2rem;
   padding: 1rem;
+  display: grid;
+  justify-content: center;
+  gap: 1rem;
 }
 
 footer ul.links {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: center;
+  font-size: calc(0.8rem + 0.5vw);
 }
 
 footer a,
