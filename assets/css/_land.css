@@ -7,19 +7,27 @@ section.intro {
   margin: 0 auto;
 }
 
-section.land {
-  border-top-style: double;
-  border-top-width: 4px;
-  padding-top: 2rem;
-}
-
 .title {
   text-align: center;
   font-size: calc(1.5rem + 1vw);
+  text-wrap: pretty;
 }
 
-hr {
-  margin: 2rem 0;
-  border-style: solid;
-  border-width: 0.5px;
+section {
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+.tract {
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+
+  section.land {
+    display: grid;
+    gap: 2rem;
+  }
 }
