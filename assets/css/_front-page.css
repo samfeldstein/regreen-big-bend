@@ -52,3 +52,14 @@ a.contact {
   display: inline-block;
   padding: 0.5em;
 }
+
+ul.resources {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+ul.resources li {
+  margin: 1em 0;
+}

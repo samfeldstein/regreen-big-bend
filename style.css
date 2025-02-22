@@ -3,6 +3,7 @@ Theme Name: Custom Classic
 */
 
 body {
+  margin: 0 auto;
   background-color: #EEF2E4;
   font-family: Sexsmith;
   font-size: 1.25rem;
@@ -26,4 +27,18 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
+}
+
+footer {
+  background-color: #2F5922;
+  color: #EEF2E4;
+  text-align: center;
+  margin-top: 2rem;
+  padding: 2rem;
+}
+
+.site-title {
+  font-family: "Jacques Francois Shadow";
+  font-weight: 100;
+  font-size: calc(1rem + 2vw);
 }

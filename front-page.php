@@ -37,7 +37,7 @@
 
   <section id="resources" class="resources">
     <h2>Resources</h2>
-    <ul>
+    <ul class="resources">
       <li><a href="https://www.npsot.org/chapters/big-bend/">Big Bend Chapter</a> of the Native Plant Society of Texas
       </li>
       <li><a href="https://www.ckwri.tamuk.edu/research-programs/texas-native-seeds-program-tns">Texas Native Seed
