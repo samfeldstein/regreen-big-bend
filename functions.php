@@ -33,6 +33,10 @@ function load_css()
   if (is_page("land-for-sale")) {
     wp_enqueue_style("land", get_theme_file_uri("/assets/css/_land.css"));
   }
+
+  if (is_page("contact")) {
+    wp_enqueue_style("contact", get_theme_file_uri("/assets/css/_contact.css"));
+  }
 }
 
 function load_map_modal()
@@ -60,7 +64,6 @@ function enable_page_excerpts()
 }
 
 // Contact form
-
 function handle_contact_form()
 {
   if (!wp_verify_nonce($_POST['_wpnonce'], 'contact_form_submit')) {

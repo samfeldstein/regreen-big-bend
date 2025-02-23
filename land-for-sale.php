@@ -18,7 +18,7 @@ Template Name: Land
   <section id="intro" class="intro">
     <p>ReGreen Big Bend LLC is NOT a land dealer. However, sometimes we find
       ourselves owning land that isn’t appropriate for our purposes. If you’re interested,
-      email us at <a href="mailto:regreenbigbend@gmail.com">regreenbigbend@gmail.com</a>. All land listed is in
+      email us at <a href="/contact/">Contact</a>. All land listed is in
       Terlingua Ranch, Brewster County, TX.</p>
   </section>
 

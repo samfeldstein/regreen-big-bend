@@ -21,11 +21,15 @@
       any big, organized deal. We’re making it up as we go along, making sure to
       consult experts and not do anything harmful.</p>
 
-    <p>We work mostly in the winter because it just too hot the rest of the time.</p>
+    <p>We work mostly in the winter because it's just too hot the rest of the time.</p>
   </section>
 
   <section id="contact" class="contact">
     <h2>Get in Touch</h2>
+
+    <p>Also <a href="https://www.instagram.com/regreenbigbend/" class="contact">@regreenbigbend</a> on Instagram, now
+      and then. Mostly then.
+    </p>
 
     <form class="contact" action="<?php echo esc_url(admin_url('admin-post.php')); ?>" method="post">
       <div><label for="name">Name</label>
@@ -44,11 +48,6 @@
       <input type="hidden" name="action" value="contact_form_submission">
       <button type="submit">Send</button>
     </form>
-
-    <p>Reach us at <a href="mailto:regreenbigbend@gmail.com" class="contact">regreenbigbend@gmail.com</a> or <a
-        href="https://www.instagram.com/regreenbigbend/" class="contact">@regreenbigbend</a> on Instagram, now
-      and then. Mostly then.
-    </p>
 
   </section>
 
