@@ -10,6 +10,7 @@ Template Name: Map
   <nav>
     <a href="/">Home</a>
     <a href="/land-for-sale/">Land for Sale</a>
+    <a href="/contact/">Contact</a>
   </nav>
   <h1>Brewster County, TX <br />Terlingua Ranch Property Appraisal Information</h1>
 </header>
