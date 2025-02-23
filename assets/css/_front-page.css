@@ -59,11 +59,14 @@ form.contact {
   text-align: left;
 }
 
-label, input, textarea {
+label,
+input,
+textarea {
   width: 100%;
 }
 
-input, textarea {
+input,
+textarea {
   padding: 0.5rem 1rem;
 }
 
@@ -74,4 +77,26 @@ textarea {
 label {
   position: absolute;
   translate: -1000%;
+}
+
+button {
+  cursor: pointer;
+  background-color: #2F5922;
+  color: #EEF2E4;
+  border-style: solid;
+  border-color: #2F5922;
+  border-width: 1px;
+  border-radius: 2px;
+  padding: 0.25em 0;
+  font-variant: small-caps;
+  font-size: calc(1.5rem + 0.75vw);
+  width: 30%;
+  margin: 0 auto;
+  transition-duration: 0.25s;
+}
+
+button:hover,
+button:focus {
+  background-color: #EEF2E4;
+  color: #2F5922;
 }
