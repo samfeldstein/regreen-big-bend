@@ -59,6 +59,32 @@ function enable_page_excerpts()
   add_post_type_support('page', 'excerpt');
 }
 
+// Contact form
+add_action('admin_post_nopriv_contact_form_submission', 'handle_contact_form');
+add_action('admin_post_contact_form_submission', 'handle_contact_form');
+
+function handle_contact_form()
+{
+  if (!wp_verify_nonce($_POST['_wpnonce'], 'contact_form_submit')) {
+    wp_die('Invalid nonce');
+  }
+
+  $name = sanitize_text_field($_POST['name']);
+  $email = sanitize_email($_POST['email']);
+  $message = sanitize_textarea_field($_POST['message']);
+
+  // Send email
+  $to = get_option('admin_email');
+  $subject = 'New Contact Form Submission';
+  $body = "Name: $name\nEmail: $email\nMessage: $message";
+
+  wp_mail($to, $subject, $body);
+
+  // Redirect back
+  wp_redirect(home_url(''));
+  exit;
+}
+
 // Actions
 add_action('wp_enqueue_scripts', 'load_css');
 add_action("wp_enqueue_scripts", "load_map_modal");
