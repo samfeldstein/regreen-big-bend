@@ -31,7 +31,7 @@ function load_css()
   }
 
   if (is_page("land-for-sale")) {
-    wp_enqueue_style("modal", get_theme_file_uri("/assets/css/_land.css"));
+    wp_enqueue_style("land", get_theme_file_uri("/assets/css/_land.css"));
   }
 }
 
@@ -60,8 +60,6 @@ function enable_page_excerpts()
 }
 
 // Contact form
-add_action('admin_post_nopriv_contact_form_submission', 'handle_contact_form');
-add_action('admin_post_contact_form_submission', 'handle_contact_form');
 
 function handle_contact_form()
 {
@@ -74,7 +72,8 @@ function handle_contact_form()
   $message = sanitize_textarea_field($_POST['message']);
 
   // Send email
-  $to = get_option('admin_email');
+  $to = array('cgitom@gmail.com', get_option('admin_email'));
+
   $subject = 'New Contact Form Submission';
   $body = "Name: $name\nEmail: $email\nMessage: $message";
 
@@ -91,4 +90,6 @@ add_action("wp_enqueue_scripts", "load_map_modal");
 add_action('wp_head', 'dynamic_meta_description');
 add_action('init', 'enable_page_excerpts');
 add_action('wp_head', 'preload_fonts');
+add_action('admin_post_nopriv_contact_form_submission', 'handle_contact_form');
+add_action('admin_post_contact_form_submission', 'handle_contact_form');
 add_theme_support('title-tag');

@@ -50,3 +50,28 @@ ul.resources {
 ul.resources li {
   margin: 1em 0;
 }
+
+form.contact {
+  display: grid;
+  gap: 1rem;
+  max-width: 60rem;
+  margin: 0 auto;
+  text-align: left;
+}
+
+label, input, textarea {
+  width: 100%;
+}
+
+input, textarea {
+  padding: 0.5rem 1rem;
+}
+
+textarea {
+  min-height: 10rem;
+}
+
+label {
+  position: absolute;
+  translate: -1000%;
+}
