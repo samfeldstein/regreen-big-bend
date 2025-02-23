@@ -37,6 +37,10 @@ function load_css()
   if (is_page("contact")) {
     wp_enqueue_style("contact", get_theme_file_uri("/assets/css/_contact.css"));
   }
+
+  if (is_page("success")) {
+    wp_enqueue_style("success", get_theme_file_uri("/assets/css/_success.css"));
+  }
 }
 
 function load_map_modal()
@@ -75,15 +79,16 @@ function handle_contact_form()
   $message = sanitize_textarea_field($_POST['message']);
 
   // Send email
-  $to = array('cgitom@gmail.com', get_option('admin_email'));
+  // $to = array('cgitom@gmail.com', get_option('admin_email'));
+  $to = get_option('admin_email');
 
   $subject = 'New Contact Form Submission';
   $body = "Name: $name\nEmail: $email\nMessage: $message";
 
   wp_mail($to, $subject, $body);
 
-  // Redirect back
-  wp_redirect(home_url(''));
+  // // Redirect back
+  wp_redirect(home_url('/success/'));
   exit;
 }
 
