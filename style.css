@@ -111,13 +111,3 @@ a.skiplink {
 a.skiplink:focus {
   translate: 2rem;
 }
-
-
-/* Putting this here to get around cache, hopefully. It was serving an older version. */
-form.contact {
-  display: grid;
-  gap: 1rem;
-  max-width: 60rem;
-  margin: 0 auto;
-  text-align: left;
-}

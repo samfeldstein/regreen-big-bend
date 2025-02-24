@@ -18,28 +18,63 @@ function preload_fonts()
 function load_css()
 {
   // Always load reset CSS
-  wp_enqueue_style("fonts", get_theme_file_uri("/assets/css/_fonts.css"));
-  wp_enqueue_style('reset', get_theme_file_uri("/assets/css/reset.css"));
+  wp_enqueue_style(
+    "fonts",
+    get_theme_file_uri("/assets/css/_fonts.css"),
+    array(),
+    filemtime(get_theme_file_path("/assets/css/_fonts.css"))
+  );
+  wp_enqueue_style(
+    'reset',
+    get_theme_file_uri("/assets/css/reset.css"),
+    array(),
+    filemtime(get_theme_file_path("/assets/css/reset.css"))
+  );
 
   // Load page-specific CSS
   if (is_page("home")) {
-    wp_enqueue_style("home", get_theme_file_uri("/assets/css/_front-page.css"));
+    wp_enqueue_style(
+      "home",
+      get_theme_file_uri("/assets/css/_front-page.css"),
+      array(),
+      filemtime(get_theme_file_path("/assets/css/_front-page.css"))
+    );
   }
 
   if (is_page("map")) {
-    wp_enqueue_style("modal", get_theme_file_uri("/assets/css/_modal.css"));
+    wp_enqueue_style(
+      "modal",
+      get_theme_file_uri("/assets/css/_modal.css"),
+      array(),
+      filemtime(get_theme_file_path("/assets/css/_modal.css"))
+    );
   }
 
   if (is_page("land-for-sale")) {
-    wp_enqueue_style("land", get_theme_file_uri("/assets/css/_land.css"));
+    wp_enqueue_style(
+      "land",
+      get_theme_file_uri("/assets/css/_land.css"),
+      array(),
+      filemtime(get_theme_file_path("/assets/css/_land.css"))
+    );
   }
 
   if (is_page("contact")) {
-    wp_enqueue_style("contact", get_theme_file_uri("/assets/css/_contact.css"));
+    wp_enqueue_style(
+      "contact",
+      get_theme_file_uri("/assets/css/_contact.css"),
+      array(),
+      filemtime(get_theme_file_path("/assets/css/_contact.css"))
+    );
   }
 
   if (is_page("success")) {
-    wp_enqueue_style("success", get_theme_file_uri("/assets/css/_success.css"));
+    wp_enqueue_style(
+      "success",
+      get_theme_file_uri("/assets/css/_success.css"),
+      array(),
+      filemtime(get_theme_file_path("/assets/css/_success.css"))
+    );
   }
 }
 
