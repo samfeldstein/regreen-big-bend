@@ -79,8 +79,8 @@ function handle_contact_form()
   $message = sanitize_textarea_field($_POST['message']);
 
   // Send email
-  // $to = array('cgitom@gmail.com', get_option('admin_email'));
-  $to = get_option('admin_email');
+  $to = array('cgitom@gmail.com', get_option('admin_email'));
+  // $to = get_option('admin_email');
 
   $subject = 'New Contact Form Submission';
   $body = "Name: $name\nEmail: $email\nMessage: $message";
