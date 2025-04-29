@@ -17,36 +17,23 @@ Template Name: Land
 <main id="main-content">
   <section id="intro" class="intro">
     <p>ReGreen Big Bend LLC is NOT a land dealer. However, sometimes we find
-      ourselves owning land that isn’t appropriate for our purposes. If you’re interested,
-      email us at <a href="/contact/">Contact</a>. All land listed is in
+      ourselves owning land that isn’t appropriate for our purposes. If you’re interested, <a href="/contact/">send us a message</a>. All land listed is in
       Terlingua Ranch, Brewster County, TX.</p>
   </section>
 
   <section id="land" class="land">
     <div class="tract">
-      <div class="title"><strong> Terlingua Ranch Tracts NC0958, NC0959, NC0960, NC0961 (County IDs
-          17056-17059)</strong>
-      </div>
-      <p>Sold together as 20 acres. $20,000 cash, financing price $25,000 at 7% with $5,000 down and $396.02/month for
-        60
-        months.</p>
-
-      <p>Seller will contract for General Warranty deed or, if buyer wants title company and deed of trust, buyer
-        pays all closing costs. All taxes and HOA dues current.</p>
-    </div>
-
-    <div class="tract">
-      <div class="title"><strong>Terlingua Ranch Tract NC0795 (County ID 16890)</strong></div>
+      <div class="title"><strong>Terlingua Ranch Tract 4838 (County ID 14734)</strong></div>
       <p>
-        5 acres, $7,500 cash, financing price is $9,000 with $2,000 down at 7%, $216.14/month for 36 months.
+        20 acres, $25,000.
       </p>
 
-      <p>Seller
-        will contract for General Warranty deed or, if buyer wants title company and deed of trust, buyer pays all
-        closing costs.</p>
+      <p>Easy access (you can do it in a car but slowly, SUV a breeze) from TX 118 but a world away. Great elevation and
+        spectacular vistas of all the area peaks.</p>
 
-      <p>Third row S off Main Ranch Road, easy access in a sedan. Some vegetation. All taxes and HOA dues
-        current.</p>
+      <p>Please contact RGBB's realtor Kyle Smith, exp Realty LLC,
+        <a href="tel:9305304171">930-530-4171</a> , <a href="mailto:kyle@kylesmith.com">kyle@kylesmith.com</a>.
+      </p>
     </div>
   </section>
 

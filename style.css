@@ -27,14 +27,8 @@ nav {
 
 nav a {
   font-size: calc(0.8rem + 0.5vw);
-  text-decoration: none;
   display: inline-block;
   padding: 0.5em;
-}
-
-nav a:hover,
-nav:focus {
-  text-decoration: underline;
 }
 
 main {
@@ -50,13 +44,17 @@ h2 {
 
 a {
   color: #2F5922;
-  text-decoration-thickness: 0.05em;
-  text-underline-offset: 0.1em;
+  text-decoration: none;
+  font-variant: small-caps;
+  text-transform: lowercase;
+  letter-spacing: 1.5px;
 }
 
 a:hover,
 a:focus {
-  text-decoration: none;
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
 }
 
 footer,
